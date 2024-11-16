@@ -1,5 +1,5 @@
 
-package javaapplication2;
+package Beginnerjava;
 
 public class BioData {
     
