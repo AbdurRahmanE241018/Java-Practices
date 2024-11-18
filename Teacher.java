@@ -1,24 +1,15 @@
-package Inheritance;
 
-public class Teacher extends Person{
-		
-	String qualification;
-	String institution;
-	void displayInformation2() {
-		
-		/*
-		System.out.println("Name :"+name);
-		System.out.println("Age :"+age);
-		System.out.println("ID :"+id);
-		*/
-		
-		displayInformation1();
-		
-		System.out.println("Qualification :"+qualification);
-		System.out.println("Institution :"+institution);
-	}
-	
-	
-		
+package OOP.Method;
 
+public class Teacher {
+    String name,gender;
+    int phone,id;
+    void displayInformation(){
+    System.out.println("Name:" + name);
+        System.out.println("Gender:" + gender);
+        System.out.println("ID:" + id);
+        System.out.println("Phone:" + phone);
+        
+}
+    
 }
