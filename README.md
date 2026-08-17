@@ -1,2 +1,1 @@
-# Java-Practices
-Java practice Codes
+Learning
